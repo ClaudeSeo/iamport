@@ -16,6 +16,13 @@
 6. 부분 결제 취소
 7. 결제 정보 확인
 
+# 설치
+```
+$ git clone https://github.com/SeoDongMyeong/iamport.git
+$ cd iamport
+$ python setup.py install
+```
+
 # 사용 방법
 ```
 iamport = Iamport(imp_key, imp_secret)
