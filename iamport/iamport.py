@@ -31,7 +31,9 @@ class Iamport(object):
         result = response.json()
         if result['code'] != 0:
             raise self.IamportError(result.get('code'), result.get('message'))
-        elif 'response' in result and 'fail_reason' in result['response']:
+        elif ('response' in result and
+              isinstance(result['response'], dict) and
+              result['response'].get('fail_reason')):
             raise self.IamportError(2, result['response'].get('fail_reason'))
         return result.get('response')
 
