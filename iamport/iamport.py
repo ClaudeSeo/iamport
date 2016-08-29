@@ -119,7 +119,7 @@ class Iamport(object):
                 buyer_tel=None, buyer_addr=None, buyer_postcode=None,
                 card_quota=None):
 
-        url = '%s//subscribe/payments/onetime' % (self.imp_url)
+        url = '%s/subscribe/payments/onetime' % (self.imp_url)
         payload = {
             'merchant_uid': merchant_uid,
             'amount': amount,
