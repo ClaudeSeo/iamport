@@ -4,7 +4,7 @@
 - 이용중 발생한 문제에 대하여 책임을 지지 않습니다
 
 
-[![Build Status](https://travis-ci.org/SeoDongMyeong/iamport.svg?branch=master)](https://travis-ci.org/SeoDongMyeong/iamport)
+[![Build Status](https://travis-ci.org/ClaudeSeo/iamport.svg?branch=master)](https://travis-ci.org/ClaudeSeo/iamport)
 
 
 # 기능
